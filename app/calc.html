@@ -1,0 +1,414 @@
+@@include('_head.html')
+@@include('_header.html')
+
+<!-- Хлебные крошки -->
+<section id="bread_crumbs">
+	<div class="container">
+		<div class="bread_crumbs">
+			<a href="index.html">Главная</a>
+			<span>/</span>
+			<p>Личный кабинет</p>
+		</div>
+	</div>
+</section>
+
+<!-- Калькулятор -->
+<section id="calc">
+	<div class="container">
+		<h3 class="calc_title">Конфигурация гаражных ворот</h3>
+		<form class="calc_tabs_box">
+			<ul class="tabs_menu">
+				<li>
+					<a href="#tab1" class="active">
+						<p class="calc_item_name">Размер проема</p>
+						<p class="calc_item_size">2345х5432мм</p>
+						<p class="calc_item_price">+ 1299 руб.</p>
+					</a>
+				</li>
+				<li>
+					<a href="#tab2">
+						<p class="calc_item_name">Тип и цвет панели</p>
+						<p class="calc_item_size">S-гофр под дерево / Белый / Светло-серый</p>
+						<p class="calc_item_price">+ 1299 руб.</p>
+					</a>
+				</li>
+				<li>
+					<a href="#tab3">
+						<p class="calc_item_name">Тип монтажа</p>
+						<p class="calc_item_size">Стандартный</p>
+						<p class="calc_item_price">+ 1299 руб.</p>
+					</a>
+				</li>
+				<li>
+					<a href="#tab4">
+						<p class="calc_item_name">Управление</p>
+						<p class="calc_item_size">LG800 LGR-3300B</p>
+						<p class="calc_item_price">+ 1299 руб.</p>
+					</a>
+				</li>
+				<li>
+					<a href="#tab5">
+						<p class="calc_item_name">Опции</p>
+						<p class="calc_item_size">Калитка с плоским порогом</p>
+						<p class="calc_item_price">+ 1299 руб.</p>
+					</a>
+				</li>
+				<li class="result">
+					<p class="result_title">ИТОГО</p>
+					<p class="result_how_much">3 450 руб.</p>
+					<button class="result_btn">Добавить в корзину</button>
+				</li>
+			</ul>
+			<div class="tab" id="tab1">
+				<h4 class="calc_content_title">Укажите размеры проема:</h4>
+				<div class="calc_sizes_wrap">
+					<div class="calc_sizes_box">
+						<img src="img/pictures/calc-sizes.png" alt="">
+						<div class="calc_sizes_height">
+							<label>Высота, мм</label>
+							<input type="number">
+						</div>
+						<div class="calc_sizes_width">
+							<label>Ширина, мм</label>
+							<input type="number">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tab" id="tab2">
+				<h4 class="calc_content_title">Выбор типа и цвета панели:</h4>
+				<div class="calc_type_wrap">
+					<h5>Структура Stucco:</h5>
+					<div class="calc_type_container">
+						<div class="calc_type_box">
+							<input type="radio" class="calc_type_input" name="calc_type" id="calc_type1">
+							<label for="calc_type1" style="background-image: url(img/pictures/calc-type.jpg);"></label>
+							<p>S - гофр D - гофр</p>
+						</div>
+						<div class="calc_type_box">
+							<input type="radio" class="calc_type_input" name="calc_type" id="calc_type2">
+							<label for="calc_type2" style="background-image: url(img/pictures/calc-type.jpg);"></label>
+							<p>D - гофр</p>
+						</div>
+					</div>
+					<img src="img/pictures/calc-type2.jpg" alt="">
+				</div>
+				<div class="calc_type_wrap">
+					<h5>Структура Woodgrain:</h5>
+					<div class="calc_type_container">
+						<div class="calc_type_box">
+							<input type="radio" class="calc_type_input" name="calc_type" id="calc_type3">
+							<label for="calc_type3" style="background-image: url(img/pictures/calc-type.jpg);"></label>
+							<p>S - гофр D - гофр</p>
+						</div>
+						<div class="calc_type_box">
+							<input type="radio" class="calc_type_input" name="calc_type" id="calc_type4">
+							<label for="calc_type4" style="background-image: url(img/pictures/calc-type.jpg);"></label>
+							<p>F - гофр</p>
+						</div>
+						<div class="calc_type_box">
+							<input type="radio" class="calc_type_input" name="calc_type" id="calc_type5">
+							<label for="calc_type5" style="background-image: url(img/pictures/calc-type.jpg);"></label>
+							<p>M - гофр</p>
+						</div>
+						<div class="calc_type_box">
+							<input type="radio" class="calc_type_input" name="calc_type" id="calc_type6">
+							<label for="calc_type6" style="background-image: url(img/pictures/calc-type.jpg);"></label>
+							<p>Филенка</p>
+						</div>
+					</div>
+				</div>
+				<div class="calc_type_wrap">
+					<h5>Структура гладкая:</h5>
+					<div class="calc_type_container">
+						<div class="calc_type_box">
+							<input type="radio" class="calc_type_input" name="calc_type" id="calc_type7">
+							<label for="calc_type7" style="background-image: url(img/pictures/calc-type.jpg);"></label>
+							<p>S - гофр D - гофр</p>
+						</div>
+						<div class="calc_type_box">
+							<input type="radio" class="calc_type_input" name="calc_type" id="calc_type8">
+							<label for="calc_type8" style="background-image: url(img/pictures/calc-type.jpg);"></label>
+							<p>M - гофр</p>
+						</div>
+						<div class="calc_type_box">
+							<input type="radio" class="calc_type_input" name="calc_type" id="calc_type9">
+							<label for="calc_type9" style="background-image: url(img/pictures/calc-type.jpg);"></label>
+							<p>L - гофр</p>
+						</div>
+					</div>
+					<img src="img/pictures/calc-type3.jpg" alt="">
+				</div>
+				<div class="calc_type_wrap">
+					<h5>Структура микроволна:</h5>
+					<div class="calc_type_container">
+						<div class="calc_type_box">
+							<input type="radio" class="calc_type_input" name="calc_type" id="calc_type10">
+							<label for="calc_type10" style="background-image: url(img/pictures/calc-type.jpg);"></label>
+							<p>Микроволна</p>
+						</div>
+					</div>
+				</div>
+				<div class="calc_color_wrap">
+					<h5>Cтандартные RAL-цвета:</h5>
+					<div class="calc_color_container">
+						<div class="calc_color_box">
+							<input type="radio" class="calc_color_input" name="calc_color" id="calc_color">
+							<label for="calc_color" style="background: #C4C4C4;"></label>
+							<p>9016</p>
+						</div>
+						<div class="calc_color_box">
+							<input type="radio" class="calc_color_input" name="calc_color" id="calc_color1">
+							<label for="calc_color1" style="background: #C4C4C4;"></label>
+							<p>9016</p>
+						</div>
+						<div class="calc_color_box">
+							<input type="radio" class="calc_color_input" name="calc_color" id="calc_color2">
+							<label for="calc_color2" style="background: #C4C4C4;"></label>
+							<p>9016</p>
+						</div>
+						<div class="calc_color_box">
+							<input type="radio" class="calc_color_input" name="calc_color" id="calc_color3">
+							<label for="calc_color3" style="background: #C4C4C4;"></label>
+							<p>9016</p>
+						</div>
+						<div class="calc_color_box">
+							<input type="radio" class="calc_color_input" name="calc_color" id="calc_color4">
+							<label for="calc_color4" style="background: #C4C4C4;"></label>
+							<p>9016</p>
+						</div>
+						<div class="calc_color_box">
+							<input type="radio" class="calc_color_input" name="calc_color" id="calc_color5">
+							<label for="calc_color5" style="background: #C4C4C4;"></label>
+							<p>9016</p>
+						</div>
+						<div class="calc_color_box">
+							<input type="radio" class="calc_color_input" name="calc_color" id="calc_color6">
+							<label for="calc_color6" style="background: #C4C4C4;"></label>
+							<p>9016</p>
+						</div>
+					</div>
+				</div>
+				<div class="calc_color_wrap">
+					<h5>Нестандартные цвета:</h5>
+					<div class="calc_color_container">
+						<div class="calc_color_box">
+							<input type="radio" class="calc_color_input" name="calc_color" id="calc_color7">
+							<label for="calc_color7" style="background: #C4C4C4;"></label>
+							<p>Цвет по каталогу RAL</p>
+						</div>
+					</div>
+				</div>
+				<div class="calc_color_wrap">
+					<h5>Цвет под дерево:</h5>
+					<div class="calc_color_container">
+						<div class="calc_color_box">
+							<input type="radio" class="calc_color_input" name="calc_color" id="calc_color8">
+							<label for="calc_color8" style="background: #C4C4C4;"></label>
+							<p>Golden Oak</p>
+						</div>
+						<div class="calc_color_box">
+							<input type="radio" class="calc_color_input" name="calc_color" id="calc_color9">
+							<label for="calc_color9" style="background: #C4C4C4;"></label>
+							<p>Golden Oak</p>
+						</div>
+						<div class="calc_color_box">
+							<input type="radio" class="calc_color_input" name="calc_color" id="calc_color10">
+							<label for="calc_color10" style="background: #C4C4C4;"></label>
+							<p>Golden Oak</p>
+						</div>
+					</div>
+				</div>
+				<div class="calc_color_wrap">
+					<h5>Цвет:</h5>
+					<div class="calc_color_container">
+						<div class="calc_color_box">
+							<input type="radio" class="calc_color_input" name="calc_color" id="calc_color11">
+							<label for="calc_color11" style="background: #C4C4C4;"></label>
+							<p>DB703</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tab" id="tab3">
+				<h4 class="calc_content_title">Выберите тип монтажа:</h4>
+				<div class="mounting">
+					<input type="radio" class="mounting_input" name="mounting" id="mounting">
+					<label for="mounting">
+						<img src="img/pictures/stairs.jpg" alt="">
+						<h5>Пружины растяжения</h5>
+						<p>
+							Доступность зависит от размера проёма
+						</p>
+						<span>+100 руб.</span>
+					</label>
+					<input type="radio" class="mounting_input" name="mounting" id="mounting1">
+					<label for="mounting1">
+						<img src="img/pictures/stairs.jpg" alt="">
+						<h5>Стандартный</h5>
+						<p>
+							Доступен при макс.
+							высоте ворот 3080 мм
+							притолока мин. 230 мм
+							мин. пристенки 100 мм
+						</p>
+						<span>+120 руб.</span>
+					</label>
+					<input type="radio" class="mounting_input" name="mounting" id="mounting2">
+					<label for="mounting2">
+						<img src="img/pictures/stairs.jpg" alt="">
+						<h5>Низкие барабаны спереди</h5>
+						<p>
+							Доступен при макс. высоте ворот 2840 мм притолока мин. 150 мм мин. пристенки 100 мм
+						</p>
+						<span>+120 руб.</span>
+					</label>
+					<input type="radio" class="mounting_input" name="mounting" id="mounting3">
+					<label for="mounting3">
+						<img src="img/pictures/stairs.jpg" alt="">
+						<h5>Низкие барабаны сзади</h5>
+						<p>
+							мин. притолока 160 мм
+							мин. пристенки 100 мм
+						</p>
+						<span>+120 руб.</span>
+					</label>
+				</div>
+				<div class="calc_content_wrap">
+					<div>
+						<h5 class="mounting_bottom_title">Монтаж в проем</h5>
+						<div class="calc_content_box">
+							<h6 class="mounting_bottom_subtitle">Алюминиевые профили с креплением:</h6>
+							<input type="radio" id="mounting21" name="mounting2" class="type_of_management">
+							<label for="mounting21" class="type_of_management_label">Ширина 105 мм</label>
+							<input type="radio" id="mounting22" name="mounting2" class="type_of_management">
+							<label for="mounting22" class="type_of_management_label">Ширина 105 мм</label>
+							<input type="radio" id="mounting23" name="mounting2" class="type_of_management">
+							<label for="mounting23" class="type_of_management_label">Ширина 105 мм</label>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tab" id="tab4">
+				<h4 class="calc_content_title">Выберите управление:</h4>
+				<h6 class="calc_content_subtitle">Тип управления:</h6>
+				<div class="calc_content_wrap">
+					<div>
+						<div class="calc_content_box">
+							<input type="radio" id="auto" name="type_of_management" class="type_of_management">
+							<label for="auto" class="type_of_management_label">Автоматическое</label>
+							<p class="calc_content_price">от 345 руб.</p>
+						</div>
+						<div class="calc_content_box">
+							<input type="radio" id="manual" name="type_of_management" class="type_of_management">
+							<label for="manual" class="type_of_management_label">Ручное (замок и ручка)</label>
+							<p class="calc_content_price">от 345 руб.</p>
+						</div>
+					</div>
+					<div>
+						<div class="calc_content_box">
+							<input type="radio" id="manual2" name="type_of_management" class="type_of_management">
+							<label for="manual2" class="type_of_management_label">Ручное (будущий монтаж эл. привода)</label>
+							<p class="calc_content_price">от 345 руб.</p>
+						</div>
+						<div class="calc_content_box">
+							<input type="radio" id="chain_gear" name="type_of_management" class="type_of_management">
+							<label for="chain_gear" class="type_of_management_label">Цепной редуктор</label>
+							<p class="calc_content_price">от 345 руб.</p>
+						</div>
+					</div>
+				</div>
+				<div class="calc_item_with_img_wrap">
+					<input id="chain_gear2" type="radio" name="type_of_management2" class="type_of_management2">
+					<label for="chain_gear2" class="calc_item_with_img">
+						<img src="img/pictures/torabwerk-control2.png" alt="">
+						<h5>DIY-800</h5>
+						<p>405 руб.</p>
+					</label>
+					<input id="chain_gear3" type="radio" name="type_of_management2" class="type_of_management2">
+					<label for="chain_gear3" class="calc_item_with_img">
+						<img src="img/pictures/torabwerk-control2.png" alt="">
+						<h5>SE-800 Pro</h5>
+						<p>405 руб.</p>
+					</label>
+					<input id="chain_gear4" type="radio" name="type_of_management2" class="type_of_management2">
+					<label for="chain_gear4" class="calc_item_with_img">
+						<img src="img/pictures/torabwerk-control2.png" alt="">
+						<h5>SE-1000</h5>
+						<p>405 руб.</p>
+					</label>
+					<input id="chain_gear5" type="radio" name="type_of_management2" class="type_of_management2">
+					<label for="chain_gear5" class="calc_item_with_img">
+						<img src="img/pictures/torabwerk-control2.png" alt="">
+						<h5>SE-1200</h5>
+						<p>405 руб.</p>
+					</label>
+				</div>
+			</div>
+			<div class="tab" id="tab5">
+				<h4 class="calc_content_title">Выберите опции:</h4>
+				<h6 class="calc_content_subtitle">Тип управления:</h6>
+				<div class="calc_content_wrap">
+					<div>
+						<div class="calc_content_box">
+							<input type="radio" id="auto1" name="type_of_management2" class="type_of_management">
+							<label for="auto1" class="type_of_management_label">Автоматическое</label>
+						</div>
+						<div class="calc_content_box">
+							<input type="radio" id="manual3" name="type_of_management2" class="type_of_management">
+							<label for="manual3" class="type_of_management_label">Ручное (замок и ручка)</label>
+						</div>
+					</div>
+					<div>
+						<div class="calc_content_box">
+							<input type="radio" id="manual4" name="type_of_management2" class="type_of_management">
+							<label for="manual4" class="type_of_management_label">Ручное (будущий монтаж эл. привода)</label>
+						</div>
+						<div class="calc_content_box">
+							<input type="radio" id="chain_gear1" name="type_of_management2" class="type_of_management">
+							<label for="chain_gear1" class="type_of_management_label">Цепной редуктор</label>
+						</div>
+					</div>
+				</div>
+				<h6 class="calc_content_subtitle">Покраска калиточных профилей:</h6>
+				<div class="calc_content_wrap">
+					<div>
+						<div class="calc_content_box">
+							<input type="radio" id="auto2" name="type_of_management3" class="type_of_management">
+							<label for="auto2" class="type_of_management_label">Автоматическое</label>
+						</div>
+					</div>
+					<div>
+						<div class="calc_content_box">
+							<input type="radio" id="manual5" name="type_of_management3" class="type_of_management">
+							<label for="manual5" class="type_of_management_label">Ручное (будущий монтаж эл. привода)</label>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+</section>
+
+<!-- Остались вопросы? -->
+<section id="questions">
+	<div class="container">
+		<h2 class="questions_title">Остались вопросы?</h2>
+		<p class="questions_text">
+			Оставьте заявку и наши специалисты свяжутся с вами
+			в ближайшее время для консультации. Оставьте заявку и наши специалисты свяжутся с вами в ближайшее время для консультации.
+		</p>
+		<div class="questions_form">
+			<form>
+				<input type="text" placeholder="Имя">
+				<input type="text" placeholder="Телефон">
+				<input type="submit" value="Отправить">
+			</form>
+		</div>
+	</div>
+	<div class="bg_img" style="background-image: url(img/bg/bg-questions.jpg);">
+		<img src="img/bg/arch.png" alt="">
+	</div>
+</section>
+
+@@include('_footer.html')

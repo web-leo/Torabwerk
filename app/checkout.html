@@ -1,0 +1,292 @@
+@@include('_head.html')
+@@include('_header.html')
+
+<!-- Хлебные крошки -->
+<section id="bread_crumbs">
+	<div class="container">
+		<div class="bread_crumbs">
+			<a href="index.html">Главная</a>
+			<span>/</span>
+			<p>Оформление заказа</p>
+		</div>
+	</div>
+</section>
+
+<!-- Вернуться к покупкам -->
+<section id="back">
+	<div class="container">
+		<a href="" class="back_to_shopping">Вернуться к покупкам</a>
+	</div>
+</section>
+
+<!-- Данные ЛК -->
+<section id="cart">
+	<div class="container cart_container">
+		<div class="checkout_tabs">
+			<a href="" class="checkout_tab active">Личные данные</a>
+			<a href="" class="checkout_tab">Оплата и Доставка</a>
+			<a href="" class="checkout_tab">Подтверждение</a>
+		</div>
+		<div class="cart_wrap">
+			<div class="cart_product" style="display: none;">
+				<h3 class="cart_product_title">Выберите адрес</h3>
+				<div>
+					<div class="choose_an_address">
+						<div class="choose_an_address_box">
+							<p>
+								Филипенко Александр
+								ул. Садовая 65
+								12234 Москва
+							</p>
+							<a href="tel:+79873463435">+7 (987) 346 - 34 -35</a>
+						</div>
+						<div class="choose_an_address_btns">
+							<button class="choose_an_address_btn">Выбрать</button>
+							<a href="" class="choose_an_address_change">Изменить адрес</a>
+						</div>
+					</div>
+					<div class="choose_an_address">
+						<div class="choose_an_address_box">
+							<p>
+								Филипенко Александр
+								ул. Садовая 65
+								12234 Москва
+							</p>
+							<a href="tel:+79873463435">+7 (987) 346 - 34 -35</a>
+						</div>
+						<div class="choose_an_address_btns">
+							<button class="choose_an_address_btn">Выбрать</button>
+							<a href="" class="choose_an_address_change">Изменить адрес</a>
+						</div>
+					</div>
+				</div>
+				<h3 class="cart_product_title">Укажите новый адрес</h3>
+				<form class="indicate_new_address">
+					<label>Имя<span>*</span></label>
+					<input type="text">
+					<label>Фамилия<span>*</span></label>
+					<input type="text">
+					<label>Улица, номер дома<span>*</span></label>
+					<input type="text">
+					<label>Дополнительный адрес, фирма<span>*</span></label>
+					<input type="text">
+					<div class="indicate_new_address_box">
+						<span>
+							<label>Город<span>*</span></label>
+							<input type="text">
+						</span>
+						<span>
+							<label>Почтовый индекс<span>*</span></label>
+							<input type="text">
+						</span>
+					</div>
+					<label>Телефон для уведомления о вашей доставке<span>*</span></label>
+					<input type="tel">
+				</form>
+			</div>
+			<div class="cart_product" style="display: none;">
+				<h3 class="cart_product_title">Выберите способ оплаты</h3>
+				<form class="payment_method">
+					<div class="pay_method_box">
+						<input type="radio" id="payment_method1" name="pay_method">
+						<label for="payment_method1">Предоплата</label>
+						<p class="pay_method_text">
+							Без риска для вас: просто переведите сумму счета в течение 14 дней после получения товара. Вы не платите никаких дополнительных сборов за это.
+							Этот способ оплаты требует положительной проверки платежеспособности.
+						</p>
+					</div>
+					<div class="pay_method_box">
+						<div class="payment_method_item">
+							<input type="radio" id="payment_method2" name="pay_method">
+							<label for="payment_method2">MasterCard, Visa</label>
+							<img src="img/payment-method/visa.png" alt="">
+						</div>
+					</div>
+					<div class="pay_method_box">
+						<div class="payment_method_item">
+							<input type="radio" id="payment_method3" name="pay_method">
+							<label for="payment_method3">PayPal</label>
+							<img src="img/payment-method/pay-pal.png" alt="">
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="cart_product">
+				<h3 class="cart_product_title">Корзина</h3>
+				<div class="favorite_product_box">
+					<div class="favorite_product_info">
+						<img src="http://placehold.it/200x215" alt="" class="favorite_product_info_img">
+						<div class="favorite_product_box2">
+							<h5 class="favorite_product_name">
+								Гаражные ворота / секционные ворота ISO-40 M-LINE Woodgrain антрацит с электроприводом и 2 ручными передатчиками
+							</h5>
+							<p class="favorite_product_timescales">Срок доставки: 2-3 рабочих дня</p>
+							<p class="favorite_product_delivery_type">Тип доставки: Посылка</p>
+							<p class="favorite_product_delivery_type">Количество: 1 шт</p>
+							<div class="checkout_product_number_and_price">
+								<p class="favorite_product_price">4 560 руб.</p>
+								<span class="close"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="favorite_product_box">
+					<div class="favorite_product_info">
+						<img src="http://placehold.it/200x215" alt="" class="favorite_product_info_img">
+						<div class="favorite_product_box2">
+							<h5 class="favorite_product_name">
+								Гаражные ворота / секционные ворота ISO-40 M-LINE Woodgrain антрацит с электроприводом и 2 ручными передатчиками
+							</h5>
+							<p class="favorite_product_timescales">Срок доставки: 2-3 рабочих дня</p>
+							<p class="favorite_product_delivery_type">Тип доставки: Посылка</p>
+							<p class="favorite_product_delivery_type">Количество: 1 шт</p>
+							<div class="checkout_product_number_and_price">
+								<p class="favorite_product_price">4 560 руб.</p>
+								<span class="close"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="cart_checkout" style="display: none;">
+				<h3 class="cart_product_title">Оформление заказа</h3>
+				<div class="cart_checkout_box">
+					<div class="cart_checkout_item">
+						<h6 class="cart_checkout_sum_total">Итого</h6>
+						<p class="cart_checkout_sum_total_value">6 000 руб.</p>
+					</div>
+					<div class="cart_checkout_item">
+						<h6 class="cart_checkout_item_title">НДС</h6>
+						<p class="cart_checkout_item_value">400 руб.</p>
+					</div>
+					<p class="cart_checkout_privacy_policy_text">
+						С вашим заказом вы соглашаетесь с нашими правилами
+						и условиями защиты данных.
+					</p>
+					<button class="cart_checkout_item_btn">Далее</button>
+				</div>
+				<h4 class="checkout_product_small_title">Корзина</h4>
+				<div class="favorite_product_box">
+					<div class="favorite_product_info">
+						<img src="http://placehold.it/120x129" alt="" class="favorite_product_info_img">
+						<div class="favorite_product_box2">
+							<h5 class="favorite_product_name">
+								Гаражные ворота / секционные ворота ISO-40 M-LINE Woodgrain антрацит с электроприводом и 2 ручными передатчиками
+							</h5>
+							<div class="favorite_product_number_and_price">
+								<p class="favorite_product_number">Количество: 1 шт</p>
+								<p class="favorite_product_price">4 560 руб.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="favorite_product_box">
+					<div class="favorite_product_info">
+						<img src="http://placehold.it/120x129" alt="" class="favorite_product_info_img">
+						<div class="favorite_product_box2">
+							<h5 class="favorite_product_name">
+								Гаражные ворота / секционные ворота ISO-40 M-LINE Woodgrain антрацит с электроприводом и 2 ручными передатчиками
+							</h5>
+							<div class="favorite_product_number_and_price">
+								<p class="favorite_product_number">Количество: 1 шт</p>
+								<p class="favorite_product_price">4 560 руб.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<h4 class="checkout_product_small_title">Платежный адрес</h4>
+				<div class="choose_an_address choose_an_address2">
+					<div class="choose_an_address_box">
+						<p>
+							Филипенко Александр
+							ул. Садовая 65
+							12234 Москва
+						</p>
+						<a href="tel:+79873463435">+7 (987) 346 - 34 -35</a>
+						<a href="mailto:alex@gmail.com">alex@gmail.com</a>
+					</div>
+					<div class="choose_an_address_btns">
+						<a href="" class="choose_an_address_change">Изменить адрес</a>
+					</div>
+				</div>
+				<div class="choose_an_address choose_an_address2">
+					<div class="choose_an_address_box">
+						<p>
+							Филипенко Александр
+							ул. Садовая 65
+							12234 Москва
+						</p>
+						<a href="tel:+79873463435">+7 (987) 346 - 34 -35</a>
+						<a href="mailto:alex@gmail.com">alex@gmail.com</a>
+					</div>
+					<div class="choose_an_address_btns">
+						<a href="" class="choose_an_address_change">Изменить адрес</a>
+					</div>
+				</div>
+			</div>
+			<div class="cart_checkout">
+				<h3 class="cart_product_title">Оформление заказа</h3>
+				<div class="cart_checkout_box">
+					<div class="cart_checkout_item">
+						<h6 class="cart_checkout_item_title">Общая стоимость</h6>
+						<p class="cart_checkout_item_value">5 600 руб.</p>
+					</div>
+					<div class="cart_checkout_item">
+						<h6 class="cart_checkout_item_title">Доставка</h6>
+						<p class="cart_checkout_item_value">400 руб.</p>
+					</div>
+					<hr>
+					<div class="cart_checkout_item">
+						<h6 class="cart_checkout_sum_total">Итого</h6>
+						<p class="cart_checkout_sum_total_value">6 000 руб.</p>
+					</div>
+					<div class="cart_checkout_item">
+						<h6 class="cart_checkout_item_title">НДС</h6>
+						<p class="cart_checkout_item_value">400 руб.</p>
+					</div>
+					<input type="checkbox" id="privacy_policy">
+					<label for="privacy_policy">Я согласен на обработку <a href="">персональных данных.</a></label>
+					<button class="cart_checkout_item_btn">Оплатить заказ</button>
+				</div>
+				<form class="voucher_code">
+					<div>
+						<label>Промокод</label>
+						<input type="text">
+					</div>
+					<button>Применить</button>
+				</form>
+				<h4 class="checkout_product_small_title">Платежный адрес</h4>
+				<div class="choose_an_address choose_an_address2">
+					<div class="choose_an_address_box">
+						<p>
+							Филипенко Александр
+							ул. Садовая 65
+							12234 Москва
+						</p>
+						<a href="tel:+79873463435">+7 (987) 346 - 34 -35</a>
+						<a href="mailto:alex@gmail.com">alex@gmail.com</a>
+					</div>
+					<div class="choose_an_address_btns">
+						<a href="" class="choose_an_address_change">Изменить адрес</a>
+					</div>
+				</div>
+				<div class="choose_an_address choose_an_address2">
+					<div class="choose_an_address_box">
+						<p>
+							Филипенко Александр
+							ул. Садовая 65
+							12234 Москва
+						</p>
+						<a href="tel:+79873463435">+7 (987) 346 - 34 -35</a>
+						<a href="mailto:alex@gmail.com">alex@gmail.com</a>
+					</div>
+					<div class="choose_an_address_btns">
+						<a href="" class="choose_an_address_change">Изменить адрес</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+@@include('_footer.html')

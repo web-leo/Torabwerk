@@ -1,0 +1,30 @@
+@mixin btn {
+	background: $color;
+	border-radius: 5px;
+	border: 1px solid $color;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+	transition: .5s;
+	&:hover {
+		background: transparent;
+		color: #000;
+	}
+}
+@mixin btn2 {
+	background: transparent;
+	border-radius: 5px;
+	border: 1px solid $color;
+	color: #000;
+	font-size: 16px;
+	cursor: pointer;
+	transition: .5s;
+	&:hover {
+		background: $color;
+		color: #fff;
+	}
+}
+@mixin cover {
+	object-fit: cover;
+	object-position: center;
+}

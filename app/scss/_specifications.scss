@@ -1,0 +1,45 @@
+@import 'mixins.scss';
+@import 'colors.scss';
+
+/* Спецификации */
+body, button {
+	font-family: 'Montserrat';
+}
+
+h2 {
+	font-weight: 600;
+  display: inline-block;
+  font-size: 28px;
+  line-height: 104.69%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  &:after {
+    content: '';
+    display: block;
+    width: 40%;
+    height: 2px;
+    background-color: $color;
+    margin: 16px auto 0;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.slick-track {
+  padding-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 16px;
+  line-height: 116%;
+  text-align: center;
+  padding-top: 62px;
+}

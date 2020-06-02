@@ -1,0 +1,60 @@
+@@include('_head.html')
+@@include('_header.html')
+
+<!-- Хлебные крошки -->
+<section id="bread_crumbs">
+	<div class="container">
+		<div class="bread_crumbs">
+			<a href="index.html">Главная</a>
+			<span>/</span>
+			<p>Регистрация</p>
+		</div>
+	</div>
+</section>
+
+<!-- Регистрация -->
+<section id="registration">
+	<div class="container">
+		<div class="registration_wrap">
+			<div class="registration_box registration_box1">
+				<h4 class="registration_title">Создать личный кабинет</h4>
+				<button class="registration_btn registration_btn1">Зарегистрироваться</button>
+			</div>
+			<div class="registration_box registration_box2">
+				<h4 class="registration_title">Регистрация</h4>
+				<form class="registration_form">
+					<label>Ваше имя<span>*</span></label>
+					<input type="text">
+					<label>Ваша фамилия<span>*</span></label>
+					<input type="text">
+					<label>Email<span>*</span></label>
+					<input type="email">
+					<label>Введите пароль<span>*</span></label>
+					<input type="password">
+					<label>Подтвердите пароль<span>*</span></label>
+					<input type="password">
+					<input type="checkbox" id="registration_form_check">
+					<label for="registration_form_check">Я согласен с условиями и положениями о защите данных.</label>
+					<input type="checkbox" id="registration_form_check2">
+					<label for="registration_form_check2">Я хотел бы получать рассылку с отличными идеями и специальными предложениями. Отписаться в любое время</label>
+				</form>
+				<button class="registration_btn registration_btn2">Зарегистрироваться</button>
+			</div>
+			<div class="registration_box">
+				<h4 class="registration_title">Войти в личный кабинет</h4>
+				<form class="autorization_form">
+					<label>Email</label>
+					<input type="text">
+					<label>Пароль</label>
+					<input type="password">
+					<input type="checkbox" id="autorization_form_check">
+					<label for="autorization_form_check">Запомнить логин</label>
+					<button class="registration_btn">Войти в личный кабинет</button>
+					<a href="" class="forgot_your_password">Забыли пароль?</a>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+
+@@include('_footer.html')
