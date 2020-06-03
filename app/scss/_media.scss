@@ -30,6 +30,7 @@
 
   .catalog_item {
     width: 465px;
+    height: 520px;
   }
 
   .portfolio_slide {
@@ -67,6 +68,20 @@
   .portfolio_slide_date {
     margin-top: 55px;
   }
+
+  .about_advantages_item {
+    width: 300px;
+  }
+
+  .calc_tabs_box .tabs_menu li a {
+    width: 156px;
+    padding: 0 10px;
+  }
+
+  .calc_item_size {
+    width: 100%;
+  }
+
 }
 
 @media screen and (max-width: 991px) {
@@ -260,6 +275,80 @@
   .copyright {
     width: 325px;
   }
+
+  .about_advantages {
+    flex-wrap: wrap;
+  }
+
+  .about_advantages_item {
+    width: 340px;
+    margin: 0 auto 30px;
+  }
+
+  .calc_tabs_box .tabs_menu {
+    flex-direction: column;
+  }
+
+  .calc_tabs_box {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .tabs_menu {
+    width: 156px;
+  }
+
+  .calc_tabs_box .tab {
+    width: 580px;
+  }
+
+  .calc_sizes_box_img {
+    width: 480px;
+  }
+
+  .calc_sizes_height {
+    top: 22%;
+  }
+
+  .calc_sizes_width {
+    bottom: 60px;
+    right: 55%;
+  }
+
+  .calc_type_wrap {
+    margin: 0 0 60px;
+  }
+
+  .calc_color_container,
+  .mounting {
+    flex-wrap: wrap;
+  }
+
+  .calc_color_box p {
+    margin-bottom: 15px;
+  }
+
+  .calc_item_with_img_wrap {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .calc_item_with_img {
+    margin: 0 0 30px;
+  }
+
+  .calc_content_box {
+    margin-left: 30px;
+  }
+
+  .result_btn {
+    width: 128px;
+  }
+
+  .calc_sizes_box {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -366,6 +455,54 @@
   .partners_wrap {
     width: 100%;
   }
+
+  .about_pluses_box {
+    margin: 0 auto 35px;
+  }
+
+  .about_advantages_item {
+    width: 255px;
+    margin: 0 auto 17px;
+    padding: 30px 12px;
+  }
+
+  .about_pluses_wrap {
+    flex-wrap: wrap;
+  }
+
+  .calc_tabs_box .tab {
+    width: 390px;
+    padding: 45px 25px 45px 15px;
+  }
+
+  .calc_sizes_box_img {
+    width: 365px;
+  }
+
+  .calc_sizes_height {
+    top: 16%;
+
+    label {
+      font-size: 14px;
+    }
+
+    input {
+      width: 85px;
+    }
+  }
+
+  .calc_sizes_width {
+    bottom: 125px;
+    right: 46%;
+
+    label {
+      font-size: 14px;
+    }
+
+    input {
+      width: 85px;
+    }
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -422,6 +559,10 @@
 
   .partners_text {
     padding: 105px 0 0;
+  }
+
+  .about_advantages_item {
+    width: 100%;
   }
 }
 
@@ -491,6 +632,10 @@
 
   .catalog_item_link {
     font-size: 16px;
+  }
+
+  .about_subtitle {
+    padding: 105px 0 0;
   }
 }
 

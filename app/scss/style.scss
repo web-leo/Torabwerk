@@ -2128,6 +2128,16 @@
 	margin-top: 40px;
 }
 
+.calc_forth_btn {
+	@include btn;
+	width: 261px;
+	height: 53px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 50px auto 0;
+}
+
 .type_of_management {
 	display: none;
 
@@ -2160,13 +2170,15 @@
 		border-radius: 2px;
 		margin-top: -6px;
 		margin-right: 10px;
+		position: absolute;
+		left: -30px;
 	}
 
 	&::after {
 		content: '';
 		position: absolute;
 		top: -2px;
-		left: 4px;
+		left: -26px;
 		width: 16px;
 		height: 16px;
 		background-color: transparent;
