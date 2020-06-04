@@ -503,6 +503,63 @@
       width: 85px;
     }
   }
+
+  .calc_type_wrap img {
+    margin: 15px 0 0;
+  }
+
+  .calc_type_wrap {
+    flex-wrap: wrap;
+  }
+
+  .calc_content_title {
+    margin: 0 0 30px;
+  }
+
+  .calc_type_wrap h5 {
+    margin: 0 0 15px;
+  }
+
+  .calc_color_wrap {
+    flex-wrap: wrap;
+
+    h5 {
+      width: 100%;
+      margin: 0 0 15px 0;
+    }
+  }
+
+  .mounting label {
+    width: 100%;
+  }
+
+  .calc_content_box {
+    margin-left: 0;
+    flex-wrap: wrap;
+  }
+
+  .mounting_bottom_subtitle {
+    width: 100%;
+    margin: 0 0 25px 0;
+  }
+
+  .type_of_management_label {
+    margin: 0 0 20px 30px;
+    width: 100%;
+  }
+
+  .calc_item_with_img {
+    width: 170px;
+    margin: 0 0 7px;
+
+    img {
+      width: 150px;
+    }
+  }
+
+  .calc_content_price {
+    margin: -3px 0 0 30px;
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -563,6 +620,50 @@
 
   .about_advantages_item {
     width: 100%;
+  }
+
+  .calc_tabs_box {
+    flex-direction: column;
+
+    .tabs_menu {
+      display: none;
+    }
+
+    .tab {
+      display: block !important;
+      width: 100%;
+      padding: 15px 25px 15px 15px;
+      margin: 15px 0;
+    }
+  }
+
+  .calc_forth_btn {
+    display: none;
+  }
+
+  .result_mob {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+
+    .result_btn {
+      width: 165px;
+      margin-left: auto;
+    }
+
+    .result_title {
+      margin: 0 10px 0 0;
+    }
+
+    .calc_sizes_box {
+      height: auto;
+    }
+  }
+
+  .calc_sizes_width {
+    right: 54%;
   }
 }
 
@@ -636,6 +737,43 @@
 
   .about_subtitle {
     padding: 105px 0 0;
+  }
+
+  .calc_item_with_img {
+    width: 100%;
+  }
+
+  .calc_type_container {
+    flex-wrap: wrap;
+  }
+
+  .calc_type_box p {
+    margin: 5px 0 15px;
+  }
+
+  .calc_sizes_box_img {
+    display: none;
+  }
+
+  .calc_sizes_height,
+  .calc_sizes_width {
+    position: static;
+    display: flex;
+    align-items: center;
+
+    label {
+      width: 100px;
+    }
+  }
+
+  .calc_sizes_height input,
+  .calc_sizes_width input {
+    margin: 0;
+    width: 150px;
+  }
+
+  .calc_sizes_box {
+    height: auto;
   }
 }
 
@@ -744,5 +882,15 @@
 
   .partners_wrap {
     flex-direction: column;
+  }
+
+  .result_mob {
+    padding: 0;
+    flex-wrap: wrap;
+  }
+
+  .result_mob .result_btn {
+    width: 100%;
+    margin-left: 0;
   }
 }

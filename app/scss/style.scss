@@ -2077,6 +2077,10 @@
 	}
 }
 
+.result_mob {
+	display: none;
+}
+
 .result_title {
 	text-transform: uppercase;
 	font-weight: bold;
@@ -2114,6 +2118,7 @@
 .calc_content_subtitle {
 	font-size: 18px;
 	margin-top: 35px;
+	line-height: 1.5;
 }
 
 .calc_content_wrap {
@@ -2159,6 +2164,7 @@
 	position: relative;
 	cursor: pointer;
 	margin-right: 55px;
+	line-height: 1.5;
 
 	&::before {
 		content: '';
@@ -2168,8 +2174,6 @@
 		height: 24px;
 		border: 1px solid #9D9D9D;
 		border-radius: 2px;
-		margin-top: -6px;
-		margin-right: 10px;
 		position: absolute;
 		left: -30px;
 	}
@@ -2177,7 +2181,7 @@
 	&::after {
 		content: '';
 		position: absolute;
-		top: -2px;
+		top: 4px;
 		left: -26px;
 		width: 16px;
 		height: 16px;
@@ -2439,6 +2443,7 @@
 	font-size: 18px;
 	margin-right: 20px;
 	margin-right: 80px;
+	line-height: 1.5;
 }
 
 /* Cart */
